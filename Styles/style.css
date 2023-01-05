@@ -87,6 +87,9 @@ nav ul {
     font-size: 35px;
     /* margin-bottom: 170px; */
     margin-bottom: 30px;
+    color: #181818;
+    margin-top: 130px;
+    margin-bottom: 113px;
 }
 
 .section-description {
@@ -118,11 +121,7 @@ main {
 }
 
 /* What i do style */
-.what-i-do {
-    margin-top: 130px;
-    
 
-}
 
 .what-i-do-p {
     margin-bottom: 50px;
@@ -156,4 +155,45 @@ main {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* Resume Styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn-primary{
+    margin-bottom: 113px;
 }
