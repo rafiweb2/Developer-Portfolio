@@ -16,7 +16,8 @@
     font-size: 20px;
     border: 0;
     padding: 18PX 35px;
-    
+    align-items: center;
+
 }
 
 /* header and navigation styles */
@@ -29,12 +30,13 @@ nav {
 nav li {
     list-style: none;
     margin-left: 50px;
-    
+    height: 27px;
+
 }
 
 nav ul {
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .nav-title {
@@ -167,10 +169,12 @@ main {
     font-size: 30px;
     color: #474747;
 }
-.resume-item{
+
+.resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 .resume .title {
     font-weight: 700;
     font-size: 25px;
@@ -192,33 +196,37 @@ main {
     color: #757575;
 }
 
-.resume-btn{
+.resume-btn {
     margin-top: 50px;
     text-align: center;
 }
-.btn-primary{
+
+.btn-primary {
     margin-bottom: 113px;
 }
 
 /* Contact styles */
-.contact{
+.contact {
     display: flex;
     gap: 110px;
     background: #FFF8F3;
     padding: 130px 200px;
-    
+
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
 
-.contact input[type="text"], input[type="email"], textarea{
+.contact input[type="text"],
+input[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
     padding: 18px 30px;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
 }
